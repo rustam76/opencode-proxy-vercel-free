@@ -1,0 +1,14 @@
+{
+  "name": "opencode-free-proxy",
+  "version": "10.0.0",
+  "description": "Vercel serverless proxy exposing OpenAI- and Anthropic-compatible APIs over a configurable upstream",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "test:watch": "node --test --watch tests/*.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
